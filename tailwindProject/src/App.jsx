@@ -4,16 +4,8 @@ function App() {
   
   return (
     <>
-      <div className='grid grid-cols-12'>
-        <div className='bg-blue-500 col-span-4'>
-          child1
-        </div>
-        <div className='bg-red-400 col-span-6'>
-          child2
-        </div>
-        <div className='bg-violet-500 col-span-2'>
-          child3
-        </div>
+      <div className='xl:bg-slate-600 md:bg-green-200 sm:bg-blue-400 bg-red-300'>
+        hiii there
       </div>
     </>
   )
