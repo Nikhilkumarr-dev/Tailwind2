@@ -4,9 +4,17 @@ function App() {
   
   return (
     <>
-      <div className='xl:bg-slate-600 md:bg-green-200 sm:bg-blue-400 bg-red-300'>
-        hiii there
+    <div className='grid grid-cols-12'>
+      <div className='col-span-12 sm:col-span-5 bg-green-300'>
+        hello
       </div>
+      <div className='col-span-12 sm:col-span-5 bg-yellow-500'>
+        happy to here
+      </div>
+      <div className='col-span-12 sm:col-span-2 bg-blue-400'>
+        how are your
+      </div>
+    </div>
     </>
   )
 }
